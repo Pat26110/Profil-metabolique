@@ -1,0 +1,1291 @@
+[
+  {
+    "id": "Q01",
+    "rubric_id": "R1",
+    "rubric_label": "Énergie & métabolisme",
+    "label": "Vous réveillez-vous avec l’impression de ne pas avoir récupéré pendant la nuit ?",
+    "short_label": "Réveil non récupérateur",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P03",
+      "P09",
+      "P10",
+      "P15"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q02",
+    "rubric_id": "R1",
+    "rubric_label": "Énergie & métabolisme",
+    "label": "Avez-vous besoin de caféine ou de stimulants pour “tenir” la journée ?",
+    "short_label": "Besoin de stimulants",
+    "scoring_mode": "direct",
+    "weight": 1.0,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P03",
+      "P08",
+      "P15"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q03",
+    "rubric_id": "R1",
+    "rubric_label": "Énergie & métabolisme",
+    "label": "Ressentez-vous une grosse baisse d’énergie en milieu de journée ou après les repas ?",
+    "short_label": "Baisse d’énergie journée / post-repas",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P09",
+      "P11",
+      "P14",
+      "P15"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q04",
+    "rubric_id": "R1",
+    "rubric_label": "Énergie & métabolisme",
+    "label": "Vous sentez-vous “à plat” après un effort ou une journée normale, comme vidé(e) ?",
+    "short_label": "À plat après effort normal",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P05",
+      "P09",
+      "P15"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q05",
+    "rubric_id": "R1",
+    "rubric_label": "Énergie & métabolisme",
+    "label": "Supportez-vous mal le froid, le chaud ou les changements de température ?",
+    "short_label": "Mauvaise tolérance température",
+    "scoring_mode": "direct",
+    "weight": 1.0,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P03",
+      "P07"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q06",
+    "rubric_id": "R1",
+    "rubric_label": "Énergie & métabolisme",
+    "label": "Avez-vous souvent des variations d’humeur ou de motivation liées à votre énergie ?",
+    "short_label": "Humeur liée à l’énergie",
+    "scoring_mode": "direct",
+    "weight": 1.0,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P03",
+      "P09",
+      "P15"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q07",
+    "rubric_id": "R1",
+    "rubric_label": "Énergie & métabolisme",
+    "label": "Votre corps vous semble-t-il “lent” à se remettre d’un stress, d’un effort ou d’une infection ?",
+    "short_label": "Récupération lente",
+    "scoring_mode": "direct",
+    "weight": 1.4,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P01",
+      "P09",
+      "P15"
+    ],
+    "notes": "Très discriminant"
+  },
+  {
+    "id": "Q08",
+    "rubric_id": "R2",
+    "rubric_label": "Digestion & assimilation",
+    "label": "Avez-vous souvent des ballonnements ou une sensation de ventre gonflé ?",
+    "short_label": "Ballonnements",
+    "scoring_mode": "direct",
+    "weight": 1.4,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P02",
+      "P14"
+    ],
+    "notes": "Très discriminant"
+  },
+  {
+    "id": "Q09",
+    "rubric_id": "R2",
+    "rubric_label": "Digestion & assimilation",
+    "label": "Ressentez-vous des lourdeurs digestives après avoir mangé ?",
+    "short_label": "Lourdeurs digestives",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P02",
+      "P14"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q10",
+    "rubric_id": "R2",
+    "rubric_label": "Digestion & assimilation",
+    "label": "Vos selles sont-elles irrégulières (constipation, diarrhée, alternance) ?",
+    "short_label": "Selles irrégulières",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P02",
+      "P14"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q11",
+    "rubric_id": "R2",
+    "rubric_label": "Digestion & assimilation",
+    "label": "Avez-vous des gaz fréquents ou malodorants ?",
+    "short_label": "Gaz fréquents",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P02",
+      "P14"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q12",
+    "rubric_id": "R2",
+    "rubric_label": "Digestion & assimilation",
+    "label": "Avez-vous faim rapidement après un repas ?",
+    "short_label": "Faim rapide après repas",
+    "scoring_mode": "direct",
+    "weight": 1.0,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P07",
+      "P11"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q13",
+    "rubric_id": "R2",
+    "rubric_label": "Digestion & assimilation",
+    "label": "Avez-vous des intolérances ou sensibilités alimentaires ?",
+    "short_label": "Sensibilités alimentaires",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P02",
+      "P12",
+      "P14"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q14",
+    "rubric_id": "R2",
+    "rubric_label": "Digestion & assimilation",
+    "label": "Vous sentez-vous fatigué(e) ou ralenti(e) après avoir mangé ?",
+    "short_label": "Fatigue après repas",
+    "scoring_mode": "direct",
+    "weight": 1.4,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P02",
+      "P14",
+      "P15"
+    ],
+    "notes": "Très discriminant"
+  },
+  {
+    "id": "Q15",
+    "rubric_id": "R3",
+    "rubric_label": "Système nerveux & stress",
+    "label": "Vous sentez-vous souvent stressé(e), tendu(e) ou en état d’alerte ?",
+    "short_label": "Stress / tension / alerte",
+    "scoring_mode": "direct",
+    "weight": 1.4,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P04",
+      "P08"
+    ],
+    "notes": "Très discriminant"
+  },
+  {
+    "id": "Q16",
+    "rubric_id": "R3",
+    "rubric_label": "Système nerveux & stress",
+    "label": "Avez-vous du mal à vous détendre, même lorsque vous êtes au repos ?",
+    "short_label": "Difficulté à se détendre",
+    "scoring_mode": "direct",
+    "weight": 1.4,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P04",
+      "P08"
+    ],
+    "notes": "Très discriminant"
+  },
+  {
+    "id": "Q17",
+    "rubric_id": "R3",
+    "rubric_label": "Système nerveux & stress",
+    "label": "Votre sommeil est-il léger, fragmenté ou peu réparateur ?",
+    "short_label": "Sommeil léger / fragmenté",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P04",
+      "P08",
+      "P10"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q18",
+    "rubric_id": "R3",
+    "rubric_label": "Système nerveux & stress",
+    "label": "Ressentez-vous une anxiété de fond ou des pensées envahissantes ?",
+    "short_label": "Anxiété / pensées envahissantes",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P04",
+      "P08"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q19",
+    "rubric_id": "R3",
+    "rubric_label": "Système nerveux & stress",
+    "label": "Avez-vous des réactions disproportionnées face au stress ou aux imprévus ?",
+    "short_label": "Réactivité excessive",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P04",
+      "P08"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q20",
+    "rubric_id": "R3",
+    "rubric_label": "Système nerveux & stress",
+    "label": "Votre digestion ou votre appétit se dérèglent-ils en période de stress ?",
+    "short_label": "Digestion perturbée par stress",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P08",
+      "P14"
+    ],
+    "notes": "Pont stress-digestion"
+  },
+  {
+    "id": "Q21",
+    "rubric_id": "R3",
+    "rubric_label": "Système nerveux & stress",
+    "label": "Vous sentez-vous parfois “épuisé(e) nerveusement”, vidé(e) sans cause physique ?",
+    "short_label": "Épuisement nerveux",
+    "scoring_mode": "direct",
+    "weight": 1.4,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P04",
+      "P08",
+      "P15"
+    ],
+    "notes": "Très discriminant"
+  },
+  {
+    "id": "Q22",
+    "rubric_id": "R4",
+    "rubric_label": "Détox & élimination",
+    "label": "Avez-vous souvent la sensation d’être “encombré(e)” ou intoxiqué(e) (langue chargée, teint terne, lourdeur) ?",
+    "short_label": "Sensation d’encombrement",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P06",
+      "P13"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q23",
+    "rubric_id": "R4",
+    "rubric_label": "Détox & élimination",
+    "label": "Transpirez-vous peu ou difficilement, même lors d’un effort ou par forte chaleur ?",
+    "short_label": "Transpiration faible",
+    "scoring_mode": "direct",
+    "weight": 1.0,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P06",
+      "P13"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q24",
+    "rubric_id": "R4",
+    "rubric_label": "Détox & élimination",
+    "label": "Avez-vous des maux de tête, migraines ou sensations de pression fréquentes ?",
+    "short_label": "Maux de tête / pression",
+    "scoring_mode": "direct",
+    "weight": 1.0,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P06",
+      "P13",
+      "P12"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q25",
+    "rubric_id": "R4",
+    "rubric_label": "Détox & élimination",
+    "label": "Votre peau présente-t-elle régulièrement des réactions (acné, eczéma, éruptions) ?",
+    "short_label": "Réactions cutanées",
+    "scoring_mode": "direct",
+    "weight": 1.0,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P06",
+      "P13",
+      "P12"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q26",
+    "rubric_id": "R4",
+    "rubric_label": "Détox & élimination",
+    "label": "Vos urines sont-elles foncées, odorantes ou peu abondantes ?",
+    "short_label": "Urines concentrées",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P13"
+    ],
+    "notes": "Plus spécifique rein/élimination"
+  },
+  {
+    "id": "Q27",
+    "rubric_id": "R4",
+    "rubric_label": "Détox & élimination",
+    "label": "Avez-vous tendance à faire de la rétention d’eau ou des gonflements (jambes, visage, ventre) ?",
+    "short_label": "Rétention d’eau / gonflements",
+    "scoring_mode": "direct",
+    "weight": 1.4,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P06",
+      "P13"
+    ],
+    "notes": "Très discriminant"
+  },
+  {
+    "id": "Q28",
+    "rubric_id": "R4",
+    "rubric_label": "Détox & élimination",
+    "label": "Vous sentez-vous mal lors de changements alimentaires ou de “détox” (fatigue, boutons, maux de tête) ?",
+    "short_label": "Mauvaise tolérance aux changements",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P06",
+      "P13",
+      "P15"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q29",
+    "rubric_id": "R5",
+    "rubric_label": "Inflammation & terrain immunitaire",
+    "label": "Ressentez-vous régulièrement des douleurs diffuses (articulations, muscles, raideurs) ?",
+    "short_label": "Douleurs diffuses",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P12",
+      "P05"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q30",
+    "rubric_id": "R5",
+    "rubric_label": "Inflammation & terrain immunitaire",
+    "label": "Avez-vous souvent une sensation d’inflammation générale (gonflements, rougeurs, chaleur) ?",
+    "short_label": "Inflammation générale",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P12"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q31",
+    "rubric_id": "R5",
+    "rubric_label": "Inflammation & terrain immunitaire",
+    "label": "Tombez-vous fréquemment malade ou mettez-vous longtemps à récupérer ?",
+    "short_label": "Malade souvent / récupération lente",
+    "scoring_mode": "direct",
+    "weight": 1.4,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P01"
+    ],
+    "notes": "Très discriminant"
+  },
+  {
+    "id": "Q32",
+    "rubric_id": "R5",
+    "rubric_label": "Inflammation & terrain immunitaire",
+    "label": "Avez-vous des allergies, sensibilités saisonnières ou réactions cutanées ?",
+    "short_label": "Allergies / sensibilités",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P01",
+      "P12"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q33",
+    "rubric_id": "R5",
+    "rubric_label": "Inflammation & terrain immunitaire",
+    "label": "Ressentez-vous un brouillard mental ou une fatigue inflammatoire ?",
+    "short_label": "Brouillard mental inflammatoire",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P12",
+      "P06"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q34",
+    "rubric_id": "R5",
+    "rubric_label": "Inflammation & terrain immunitaire",
+    "label": "Vos douleurs ou symptômes s’aggravent-ils avec certains aliments ou périodes de stress ?",
+    "short_label": "Aggravation aliments / stress",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P02",
+      "P12",
+      "P14"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q35",
+    "rubric_id": "R5",
+    "rubric_label": "Inflammation & terrain immunitaire",
+    "label": "Avez-vous l’impression que votre corps est souvent “en lutte” ou en tension interne ?",
+    "short_label": "Corps en lutte",
+    "scoring_mode": "direct",
+    "weight": 1.4,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P01",
+      "P12",
+      "P15"
+    ],
+    "notes": "Très discriminant"
+  },
+  {
+    "id": "Q36",
+    "rubric_id": "R6",
+    "rubric_label": "Hormones & signal métabolique",
+    "label": "Avez-vous des variations de poids difficiles à expliquer ou à stabiliser ?",
+    "short_label": "Variations de poids",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P03",
+      "P11"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q37",
+    "rubric_id": "R6",
+    "rubric_label": "Hormones & signal métabolique",
+    "label": "Ressentez-vous des fringales fréquentes ou des envies incontrôlées (sucré, salé) ?",
+    "short_label": "Fringales / envies",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P03",
+      "P11"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q38",
+    "rubric_id": "R6",
+    "rubric_label": "Hormones & signal métabolique",
+    "label": "Ressentez-vous souvent une sensation de froid ou une mauvaise régulation thermique ?",
+    "short_label": "Sensation de froid / mauvaise régulation thermique",
+    "scoring_mode": "direct",
+    "weight": 1.4,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P03",
+      "P07"
+    ],
+    "notes": "Question normalisée pour supprimer l'ambiguïté de la version source."
+  },
+  {
+    "id": "Q39",
+    "rubric_id": "R6",
+    "rubric_label": "Hormones & signal métabolique",
+    "label": "Votre libido a-t-elle diminué ou fluctue-t-elle fortement ?",
+    "short_label": "Libido diminuée / fluctuante",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P03",
+      "P07"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q40",
+    "rubric_id": "R6",
+    "rubric_label": "Hormones & signal métabolique",
+    "label": "Votre sommeil est-il perturbé sans raison apparente (réveils nocturnes, difficulté d’endormissement) ?",
+    "short_label": "Sommeil perturbé sans raison apparente",
+    "scoring_mode": "direct",
+    "weight": 1.0,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P03",
+      "P10"
+    ],
+    "notes": "Partiellement redondant avec R3/R7"
+  },
+  {
+    "id": "Q41",
+    "rubric_id": "R6",
+    "rubric_label": "Hormones & signal métabolique",
+    "label": "Ressentez-vous une fatigue hormonale : sensation d’épuisement sans effort majeur ?",
+    "short_label": "Fatigue hormonale",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P03",
+      "P09",
+      "P15"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q42",
+    "rubric_id": "R6",
+    "rubric_label": "Hormones & signal métabolique",
+    "label": "Chez la femme : cycles irréguliers, SPM, douleurs, aménorrhée ? Chez l’homme : baisse de testostérone, perte musculaire, motivation basse ?",
+    "short_label": "Signal sexuel / cycles / testostérone",
+    "scoring_mode": "direct",
+    "weight": 1.4,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P03",
+      "P07"
+    ],
+    "notes": "Très discriminant"
+  },
+  {
+    "id": "Q43",
+    "rubric_id": "R7",
+    "rubric_label": "Rythmes & synchronisation biologique",
+    "label": "Avez-vous du mal à vous endormir le soir, même en étant fatigué(e) ?",
+    "short_label": "Difficulté d’endormissement",
+    "scoring_mode": "inverted_labels",
+    "weight": 1.4,
+    "choice_scores": {
+      "A": 3,
+      "B": 2,
+      "C": 1,
+      "D": 0
+    },
+    "choice_labels": {
+      "A": "Toujours",
+      "B": "Souvent",
+      "C": "Rarement",
+      "D": "Presque jamais"
+    },
+    "associated_profiles": [
+      "P10",
+      "P04",
+      "P08"
+    ],
+    "notes": "Libellés source inversés"
+  },
+  {
+    "id": "Q44",
+    "rubric_id": "R7",
+    "rubric_label": "Rythmes & synchronisation biologique",
+    "label": "Vous réveillez-vous la nuit ou trop tôt sans réussir à vous rendormir ?",
+    "short_label": "Réveils nocturnes",
+    "scoring_mode": "inverted_labels",
+    "weight": 1.4,
+    "choice_scores": {
+      "A": 3,
+      "B": 2,
+      "C": 1,
+      "D": 0
+    },
+    "choice_labels": {
+      "A": "Toujours",
+      "B": "Souvent",
+      "C": "Rarement",
+      "D": "Presque jamais"
+    },
+    "associated_profiles": [
+      "P10",
+      "P08"
+    ],
+    "notes": "Libellés source inversés"
+  },
+  {
+    "id": "Q45",
+    "rubric_id": "R7",
+    "rubric_label": "Rythmes & synchronisation biologique",
+    "label": "Avez-vous du mal à vous lever le matin, avec une sensation de décalage ou de “brouillard” ?",
+    "short_label": "Difficulté à se lever",
+    "scoring_mode": "inverted_labels",
+    "weight": 1.4,
+    "choice_scores": {
+      "A": 3,
+      "B": 2,
+      "C": 1,
+      "D": 0
+    },
+    "choice_labels": {
+      "A": "Toujours",
+      "B": "Souvent",
+      "C": "Rarement",
+      "D": "Presque jamais"
+    },
+    "associated_profiles": [
+      "P10",
+      "P03"
+    ],
+    "notes": "Libellés source inversés"
+  },
+  {
+    "id": "Q46",
+    "rubric_id": "R7",
+    "rubric_label": "Rythmes & synchronisation biologique",
+    "label": "Votre énergie est-elle plus forte le soir que le matin ?",
+    "short_label": "Énergie plus forte le soir",
+    "scoring_mode": "inverted_labels",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 3,
+      "B": 2,
+      "C": 1,
+      "D": 0
+    },
+    "choice_labels": {
+      "A": "Toujours",
+      "B": "Souvent",
+      "C": "Rarement",
+      "D": "Presque jamais"
+    },
+    "associated_profiles": [
+      "P10"
+    ],
+    "notes": "Libellés source inversés"
+  },
+  {
+    "id": "Q47",
+    "rubric_id": "R7",
+    "rubric_label": "Rythmes & synchronisation biologique",
+    "label": "Mangez-vous souvent tard le soir ou à des horaires irréguliers ?",
+    "short_label": "Repas tardifs / irréguliers",
+    "scoring_mode": "inverted_labels",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 3,
+      "B": 2,
+      "C": 1,
+      "D": 0
+    },
+    "choice_labels": {
+      "A": "Toujours",
+      "B": "Souvent",
+      "C": "Rarement",
+      "D": "Presque jamais"
+    },
+    "associated_profiles": [
+      "P10",
+      "P11"
+    ],
+    "notes": "Libellés source inversés"
+  },
+  {
+    "id": "Q48",
+    "rubric_id": "R7",
+    "rubric_label": "Rythmes & synchronisation biologique",
+    "label": "Travaillez-vous en horaires décalés ou êtes-vous exposé(e) tard à la lumière artificielle (écrans, lumières vives) ?",
+    "short_label": "Horaires décalés / lumière tardive",
+    "scoring_mode": "direct",
+    "weight": 1.2,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P10"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "Q49",
+    "rubric_id": "R7",
+    "rubric_label": "Rythmes & synchronisation biologique",
+    "label": "Avez-vous l’impression que votre corps “n’est jamais à l’heure” : faim décalée, sommeil irrégulier, digestion lente ?",
+    "short_label": "Corps jamais à l’heure",
+    "scoring_mode": "direct",
+    "weight": 1.4,
+    "choice_scores": {
+      "A": 0,
+      "B": 1,
+      "C": 2,
+      "D": 3
+    },
+    "choice_labels": {
+      "A": "Jamais",
+      "B": "Rarement",
+      "C": "Souvent",
+      "D": "Presque toujours"
+    },
+    "associated_profiles": [
+      "P10",
+      "P14",
+      "P15"
+    ],
+    "notes": "Très discriminant"
+  }
+]
